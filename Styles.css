@@ -1,0 +1,162 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* * {box-sizing: border-box} */
+/* The list above is Css and Html reset file to avoid inconsistency of views on different browsers */
+
+.selector-for-some-widget {
+    box-sizing: content-box;
+  }
+
+  .Section-nav{
+    background-color: #1f2666;
+    color: white;
+    position: fixed;
+    width: 100%;
+    z-index: 20;
+  }
+  .little{
+    background-color: #1f2666;
+    }
+
+.little:hover{
+    border: 1px solid white;
+}
+/* 
+Section-one Css starts from here
+*/
+#icon-edit{
+  background-color: transparent;
+  width: 1em;
+  height: 1em;
+  border-radius: 5px;
+}
+
+#nav-edit{
+  display: flex;
+  align-items: center;
+  line-height: 3em;
+  font-weight: 600;
+}
+
+#Section-one{
+  background-color: #1f2666;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+
+#btn-blue{
+  background-color: blue;
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+  
+}
+#btn-blue:hover{
+  background-color: whitesmoke;
+  color: rgb(14, 14, 241);
+}
+
+#btn-white{
+  background-color: transparent;
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+#btn-white:hover{
+  background-color: whitesmoke;
+  color: rgb(14, 14, 241);
+
+}
+/* 
+Section two start here
+*/
+
+#section-two{
+  width: 30rem;
+}
+
+/* 
+Section three start here
+*/
+
+.Section-three{
+    background-color: #bde0fe;
+}
+.Certified{
+  width: 30rem;
+  margin: 0 auto;
+}
+
+
+
+/* 
+The start of section four css */
+
+
+
+
+
+
+
+/* 
+Section Six CSS
+ */
+
+ .mini-color{
+  background-color: #1f2666;
+ }
+
+ /* 
+ Footer css
+ */
+ .footer-edit{
+  background-color: #1f2666;
+ }
